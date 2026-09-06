@@ -1,0 +1,9 @@
+﻿<Project>
+  <ItemGroup>
+    <!-- CVE-2026-54570 (mXSS in AngleSharp < 1.5.0). AngleSharp 0.17.0 arrives transitively
+         through PnP.Core 1.17.0; no HTML sanitisation path exists in this solution.
+         Revisit when PnP.Core ships a release referencing AngleSharp >= 1.5.0.
+         See docs/decisions/0001-angleharp-advisory.md -->
+    <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-pgww-w46g-26qg" />
+  </ItemGroup>
+</Project>

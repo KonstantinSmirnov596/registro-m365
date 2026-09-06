@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Registro_Functions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7104",
+      "launchBrowser": false
+    }
+  }
+}

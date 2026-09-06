@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Registro.Core/Registro.Core.csproj" />
+    <Project Path="src/Registro.Functions/Registro.Functions.csproj" />
+  </Folder>
+</Solution>
