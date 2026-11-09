@@ -28,4 +28,5 @@ advisory for an untested binary compatibility risk.
 - Revisit when PnP.Core publishes a release depending on AngleSharp >= 1.5.0, then remove
   the suppression and this ADR entry.
 - Advisories affecting code paths Registro actually uses are fixed by upgrading, not suppressed —
-  as done for System.Security.Cryptography.Xml (10.0.11).
+  as done for System.Security.Cryptography.Xml (10.0.11, then 10.0.14 together with
+  System.Security.Cryptography.Pkcs 10.0.14 on 2026-11-09).

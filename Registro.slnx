@@ -3,4 +3,7 @@
     <Project Path="src/Registro.Core/Registro.Core.csproj" />
     <Project Path="src/Registro.Functions/Registro.Functions.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Registro.Core.Tests/Registro.Core.Tests.csproj" />
+  </Folder>
 </Solution>

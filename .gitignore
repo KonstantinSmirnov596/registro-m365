@@ -480,3 +480,12 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Azurite (local Azure Storage emulator) data
+__azurite_db*__.json
+__blobstorage__/
+__queuestorage__/
+.azurite/
+
+# Personal working notes, not part of the project
+Claude outputs/
